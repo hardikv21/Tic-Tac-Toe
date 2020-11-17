@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>TIC TAC TOE</h1>
+        <!--3x3 Grid -->
+        <div class="row">
+            <div class="col-4">
+                <canvas data-cell-index="0" class="can"></canvas>
+            </div>
+            <div class="col-4">
+                <canvas data-cell-index="1" class="can"></canvas>
+            </div>
+            <div class="col-4">
+                <canvas data-cell-index="2" class="can"></canvas>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <canvas data-cell-index="3" class="can"></canvas>
+            </div>
+            <div class="col-4">
+                <canvas data-cell-index="4" class="can"></canvas>
+            </div>
+            <div class="col-4">
+                <canvas data-cell-index="5" class="can"></canvas>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <canvas data-cell-index="6" class="can"></canvas>
+            </div>
+            <div class="col-4">
+                <canvas data-cell-index="7" class="can"></canvas>
+            </div>
+            <div class="col-4">
+                <canvas data-cell-index="8" class="can"></canvas>
+            </div>
+        </div>
+        <h2></h2>
+        <div class="restart">
+            <button class="btn">Restart</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="game.js"></script>
+</body>
+
+</html>
